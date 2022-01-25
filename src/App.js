@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+
 import './App.css';
+import BigPicture from './components/BigPicture';
+import WebFont from 'webfontloader';
+import { useEffect } from 'react';
+
+
 
 function App() {
+
+  useEffect(() => {
+    WebFont.load({
+      google: {
+        families: ['Antic_Slab', 'Cardo', 'Cinzel', 'Cormorant', 'Rajdhani', 'Red_Hat_Display', 'Julius Sans One', 'Antic', 'Mate SC']
+      }
+    });
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <BigPicture />
     </div>
   );
 }
