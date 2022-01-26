@@ -11,7 +11,7 @@ function App() {
   useEffect(() => {
     WebFont.load({
       google: {
-        families: ['Antic_Slab', 'Cardo', 'Cinzel', 'Cormorant', 'Rajdhani', 'Red_Hat_Display', 'Julius Sans One', 'Antic', 'Mate SC']
+        families: ['Antic_Slab', 'Cardo', 'Cinzel Decorative', 'Cormorant', 'Rajdhani', 'Red_Hat_Display', 'Julius Sans One', 'Antic']
       }
     });
   }, []);

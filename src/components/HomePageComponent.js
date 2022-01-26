@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import BigPicture from './BigPicture';
+import SideNav from './SideNav';
 
 class HomePage extends Component {
     constructor(props) {
@@ -11,6 +12,7 @@ class HomePage extends Component {
         return(
             <div>
                 <BigPicture />
+                <SideNav />
             </div>
         );
     }
