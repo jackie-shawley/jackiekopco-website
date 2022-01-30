@@ -1,21 +1,24 @@
 import React from 'react';
-import { ProSidebar, Menu, MenuItem, SubMenu, SidebarHeader } from 'react-pro-sidebar';
-import 'react-pro-sidebar/dist/css/styles.css';
+import { ProSidebar, Menu, MenuItem, SubMenu, SidebarHeader, SidebarContent } from 'react-pro-sidebar';
+
 
 function SideNav() {
 
     return (
-        <ProSidebar>
+        <ProSidebar className='sideBar'>
             <SidebarHeader>
                 <img className='navLogo' src='/images/logo.png' alt='Logo'/>
             </SidebarHeader>
-            <Menu iconShape="square">
-                <MenuItem icon={<FaGem />}>Dashboard</MenuItem>
-                <SubMenu title="Components" icon={<FaHeart />}>
-                <MenuItem>Component 1</MenuItem>
-                <MenuItem>Component 2</MenuItem>
-                </SubMenu>
-            </Menu>
+            <SidebarContent>
+                <Menu iconShape="square">
+                    <MenuItem icon="fa-home">Home</MenuItem>
+                    <MenuItem icon="music">Music</MenuItem>
+                    {/* <SubMenu title="Music" icon="fas fa-music"> */}
+                    <MenuItem>Component 1</MenuItem>
+                    <MenuItem>Component 2</MenuItem>
+                    {/* </SubMenu> */}
+                </Menu>
+            </SidebarContent>
         </ProSidebar>
     );
 }

@@ -1,8 +1,8 @@
 
-import './App.css';
-import BigPicture from './components/BigPicture';
+import './App.scss';
 import WebFont from 'webfontloader';
 import { useEffect } from 'react';
+import HomePage from './components/HomePageComponent';
 
 
 
@@ -18,7 +18,11 @@ function App() {
 
   return (
     <div className="App">
-     <BigPicture />
+       {/* Name */}
+      <div className='bigPictureText'>
+        <h1 className='bigPictureText'>Jackie Kopco</h1>
+      </div>
+      <HomePage />
     </div>
   );
 }

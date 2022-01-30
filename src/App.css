@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  background-image: url('/public/images/jackie_playing_guitar_b_and_w.png');
+  background-color: black;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .App-logo {
@@ -61,14 +67,40 @@
   
 }
 
+.navLogo {
+  height: 5rem;
+  width:auto;
+  padding-left: 10px;
+}
+
+.sideNav {
+  background-color: black;
+}
+
 @media screen and (max-width: 575px) {
+
   .bigPictureText {
     text-align: center;  
   }
   
-  .bigPicture {
+ }
 
+ @media screen and (min-width: 576px) {
+
+ }
+
+ @media screen and (min-width: 992px) {
+  .bigPictureText {
+    font-size: 6vw;
   }
+ }
+
+ @media screen and (min-width: 1200px) {
+  .bigPictureText {
+    font-size: 5.5vw;
   }
+ }
+
+
 
 
