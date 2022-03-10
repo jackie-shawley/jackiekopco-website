@@ -1,25 +1,38 @@
 import React from 'react';
-import { ProSidebar, Menu, MenuItem, SubMenu, SidebarHeader, SidebarContent } from 'react-pro-sidebar';
+import { ProSidebar, Menu, MenuItem, SidebarHeader, SidebarContent } from 'react-pro-sidebar';
+import { Link } from 'react-router-dom';
+
 
 
 function SideNav() {
 
     return (
-        <ProSidebar className='sideBar'>
-            <SidebarHeader>
-                <img className='navLogo' src='/images/logo.png' alt='Logo'/>
-            </SidebarHeader>
-            <SidebarContent>
-                <Menu iconShape="square">
-                    <MenuItem icon="fa-home">Home</MenuItem>
-                    <MenuItem icon="music">Music</MenuItem>
-                    {/* <SubMenu title="Music" icon="fas fa-music"> */}
-                    <MenuItem>Component 1</MenuItem>
-                    <MenuItem>Component 2</MenuItem>
-                    {/* </SubMenu> */}
-                </Menu>
-            </SidebarContent>
-        </ProSidebar>
+        <div>
+            <ProSidebar className='sideBar'>
+                <SidebarHeader>
+                    <img className='navLogo' src='/images/logo.png' alt='Logo'/>
+                </SidebarHeader>
+                <SidebarContent>
+                    <Menu iconShape="square">
+                        <MenuItem style={{ fontSize: '1.5rem' }}>
+                            Home
+                            <Link to='/home' />
+                        </MenuItem>
+                        <MenuItem style={{ fontSize: '1.5rem' }}>
+                            Music
+                            <Link to='/music' />
+                        </MenuItem>
+                        {/* <SubMenu title="Music" icon="fas fa-music"> */}
+                        <MenuItem style={{ fontSize: '1.5rem' }}>
+                            Contact
+                            <Link to='/contact' />
+                        </MenuItem>
+                        
+                        {/* </SubMenu> */}
+                    </Menu>
+                </SidebarContent>
+            </ProSidebar>
+        </div>
     );
 }
 

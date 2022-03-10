@@ -1,9 +1,9 @@
-$header-font: 'Cinzel Decorative', serif, 'small-caps';
+$header-font:'Cinzel Decorative', serif, 'small-caps';
 $background-image: url('../public/images/jackie_playing_guitar_b_and_w.png');
 
 
-$sidebar-bg-color: #1d1d1d !default;
-$sidebar-bg-color: #1d1d1d !default;
+
+$sidebar-bg-color: black !default;
 $sidebar-color: #adadad !default;
 $sidebar-width: 150px !default;
 $sidebar-collapsed-width: 40px !default;
@@ -79,8 +79,8 @@ $breakpoint-xxl: 1600px !default;
 .bigPictureText {
     color: white;
     /* text-shadow: 1px 1px #f51a6e; */
-    font-size: 7vw;
-    letter-spacing: .03em;
+    font-size: 20vw;
+    letter-spacing: .05em;
     font-family: $header-font;
     font-variant: small-caps;
     padding-top: 5px;
@@ -96,13 +96,12 @@ $breakpoint-xxl: 1600px !default;
 }
   
 // sideNav
-// .sideBar {
-//     background-color: $sidebar-color;
-//     size: $sidebar-width;
-// }
+.sideBar {
+    background-color: $sidebar-color;
+    size: $sidebar-width;
+    text-align: left;
+}
 
-    
-  
   @media screen and (max-width: 575px) {
   
     .bigPictureText {
