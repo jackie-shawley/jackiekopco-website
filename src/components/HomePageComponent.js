@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Main from '../Main';
+import Main from './Main';
 import SideNav from './SideNav';
 
 class HomePage extends Component {
@@ -11,7 +11,7 @@ class HomePage extends Component {
     render() {
         return(
             <div>
-                <h1>This is the homepage</h1>                
+                <h1 style={{ color: 'white' }}>This is the homepage</h1>                
             </div>
         );
     }

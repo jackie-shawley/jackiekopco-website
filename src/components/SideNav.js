@@ -1,6 +1,6 @@
 import React from 'react';
 import { ProSidebar, Menu, MenuItem, SidebarHeader, SidebarContent } from 'react-pro-sidebar';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 
 
@@ -13,19 +13,19 @@ function SideNav() {
                     <img className='navLogo' src='/images/logo.png' alt='Logo'/>
                 </SidebarHeader>
                 <SidebarContent>
-                    <Menu iconShape="square">
+                    <Menu>
                         <MenuItem style={{ fontSize: '1.5rem' }}>
                             Home
-                            <Link to='/home' />
+                            <NavLink to='/home' />
                         </MenuItem>
                         <MenuItem style={{ fontSize: '1.5rem' }}>
                             Music
-                            <Link to='/music' />
+                            <NavLink to='/music' />
                         </MenuItem>
                         {/* <SubMenu title="Music" icon="fas fa-music"> */}
                         <MenuItem style={{ fontSize: '1.5rem' }}>
                             Contact
-                            <Link to='/contact' />
+                            <NavLink to='/contact' />
                         </MenuItem>
                         
                         {/* </SubMenu> */}

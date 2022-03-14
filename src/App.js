@@ -2,13 +2,9 @@
 import './App.scss';
 import WebFont from 'webfontloader';
 import { useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import HomePage from './components/HomePageComponent';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Main from './components/Main';
 import SideNav from './components/SideNav';
-import MusicPage from './components/MusicPage';
-import Main from './Main';
-import NavBar from './components/NavBar';
-
 
 
 function App() {
@@ -24,10 +20,9 @@ function App() {
   return (
     <Router>
       <div className="App">
-          <div className='bigPictureText'>
-            <h1 className='bigPictureText'>Jackie Kopco</h1>
-          </div>
-          <Main />
+        <h1 className='App-Text'>Jackie Kopco</h1>
+        <SideNav />
+        <Main />
       </div>
     </Router>
   );

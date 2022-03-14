@@ -30,13 +30,46 @@ $breakpoint-xxl: 1600px !default;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    overflow: auto;
+  }
+  .App-Text {
+    color: white;
+    font-size: 5vw;
+    letter-spacing: .05em;
+    font-family: $header-font;
+    font-variant: small-caps;
+    padding-right: 30px;
+    text-align: right;
+    z-index: 0;
+    position: fixed;
+    top: 10px;
+    left: 875px;
   }
   
   .App-logo {
     height: 40vmin;
     pointer-events: none;
   }
-  
+
+  // sideNav
+.sideBar {
+  background-color: $sidebar-bg-color;
+  size: $sidebar-width;
+  text-align: left;
+  padding-top: 45px;
+  margin-left: 20px;
+  z-index: 20;
+  position: -webkit-sticky; /* Safari */
+  position: fixed;
+}
+
+.navLogo {
+  height: 5rem;
+  width:auto;
+  padding-left: 10px;
+}
+
   @media (prefers-reduced-motion: no-preference) {
     .App-logo {
       animation: App-logo-spin infinite 20s linear;
@@ -67,40 +100,7 @@ $breakpoint-xxl: 1600px !default;
     }
   }
   
-.bigPicture {
-    background-image: $background-image;
-    background-color: black;
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-  
-.bigPictureText {
-    color: white;
-    /* text-shadow: 1px 1px #f51a6e; */
-    font-size: 20vw;
-    letter-spacing: .05em;
-    font-family: $header-font;
-    font-variant: small-caps;
-    padding-top: 5px;
-    padding-right: 20px;
-    text-align: right;
-    
-}
-  
-.navLogo {
-    height: 5rem;
-    width:auto;
-    padding-left: 10px;
-}
-  
-// sideNav
-.sideBar {
-    background-color: $sidebar-color;
-    size: $sidebar-width;
-    text-align: left;
-}
+
 
   @media screen and (max-width: 575px) {
   
