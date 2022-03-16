@@ -8,7 +8,7 @@ function SideNav() {
 
     return (
         <div>
-            <ProSidebar className='sideBar'>
+            <ProSidebar className='side-bar'>
                 <SidebarHeader>
                     <img className='navLogo' src='/images/logo.png' alt='Logo'/>
                 </SidebarHeader>

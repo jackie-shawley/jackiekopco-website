@@ -1,11 +1,9 @@
-
 import './App.scss';
 import WebFont from 'webfontloader';
 import { useEffect } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Main from './components/Main';
-import SideNav from './components/SideNav';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
 
@@ -21,7 +19,6 @@ function App() {
     <Router>
       <div className="App">
         <h1 className='App-Text'>Jackie Kopco</h1>
-        <SideNav />
         <Main />
       </div>
     </Router>
