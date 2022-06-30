@@ -33,8 +33,9 @@ export default function MusicPage() {
       },[currentSongIndex])
 
     return(
-        <div className="music-body">
-            <Player currentSongIndex={currentSongIndex} setCurrentSongIndex={setCurrentSongIndex} nextSongIndex={nextSongIndex} songs={songs} />
+        <div>
+            {/* <Player currentSongIndex={currentSongIndex} setCurrentSongIndex={setCurrentSongIndex} nextSongIndex={nextSongIndex} songs={songs} /> */}
+            <h1>this is the music page</h1>
         </div>
     )
 }

@@ -18,7 +18,7 @@ export default function Main() {
                 <Route exact path='/contact' component={Contact} />
                 <Redirect to='/' />
             </Switch>
-            <Footer />
+            {/* <Footer /> */}
         </div>
     );
 }
