@@ -467,16 +467,40 @@ $breakpoint-xxl: 1600px !default;
   text-align: center;
 }
 
+.temp-h3-info {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.25rem;
+  text-align: center;
+  color: #4c4b4b;
+}
+
+.temp-h4 {
+  font-family: 'Arima', cursive;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
 .temp-h5 {
   font-family: 'Quicksand', sans-serif;
   font-size: 1rem;
   text-align: center;
   color: #939393;
-  
 }
 
 .temp-photos-by-link {
   color:#939393
+}
+
+.temp-photos-by-link:hover {
+  color:rgb(2, 168, 168)
+}
+
+.temp-info-link {
+  color: black
+}
+
+.temp-info-link:hover {
+  color:rgb(2, 168, 168)
 }
 
 .temp-p {
@@ -511,6 +535,11 @@ $breakpoint-xxl: 1600px !default;
   width: 80%;
 }
 
+.sound-cloud-player {
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 700px) {
@@ -542,7 +571,6 @@ $breakpoint-xxl: 1600px !default;
     align-items: center;
     justify-content: flex-start;
   }
-
 
 }
 

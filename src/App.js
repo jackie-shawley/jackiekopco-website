@@ -6,6 +6,7 @@ import Main from './components/Main';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Col, Row } from 'reactstrap';
 import TempHomePage from './components/temp site/TempHomePageComponent';
+import TemporaryFooter from './components/temp site/TemporaryFooter';
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
       </div> */}
       <div >
         <TempHomePage />
+        <TemporaryFooter />
       </div>
     </Router>
     </div>
