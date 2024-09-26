@@ -87,6 +87,55 @@ export default function TempHomePage() {
                            
                         </Col>
                     </Row>
+                    <div>
+                        <hr style={{ width: '30%' }}/>
+                            <Row>                           
+                                <Col>
+                                    <h2 className='temp-h2'>SHOWS</h2>
+                                </Col>
+                            </Row>
+                        <hr style={{ width: '30%' }}/>
+                        <div className="d-flex justify-content-center">
+                            <Row style={{ marginTop: 20 }}>
+                                <Col xs={12} md={6}>
+                                    <h4 className='temp-h4' >28 September</h4>
+                                    <p className='temp-h3-info' >5:00pm - 7:00pm</p>
+                                </Col>
+                                <Col xs={12} md={6}>
+                                    <h4 className='temp-h4' >The Write Cup Coffee Shop</h4>
+                                    <p className='temp-h3-info' >134 Gazebo Place<br />Johnstown, PA</p>
+                                </Col>
+                            </Row>
+                        </div>
+                        <hr style={{ width: '30%' }}/>
+                        <div className="d-flex justify-content-center">
+                            <Row style={{ marginTop: 20 }}>
+                                <Col xs={12} md={6}>
+                                    <h4 className='temp-h4' >18 December</h4>
+                                    <h4 className='temp-h4' >Ugly Holiday Sweater Party!</h4>
+                                    <h4 className='temp-h4' >with Walt & Jackie</h4>
+                                    <p className='temp-h3-info' >7:00pm - 10:00pm</p>
+                                </Col>
+                                <Col xs={12} md={6}>
+                                    <h4 className='temp-h4' >The Fifth Local Eatery and Alehouse</h4>
+                                    <p className='temp-h3-info' >1424 Scalp Avenue<br />Johnstown, PA</p>
+                                </Col>
+                            </Row>
+                        </div>
+                        <hr style={{ width: '30%' }}/>
+                        <div className="d-flex justify-content-center">
+                            <Row style={{ marginTop: 20 }}>
+                                <Col xs={12} md={6}>
+                                    <h4 className='temp-h4' >19 December</h4>
+                                    <p className='temp-h3-info' >2:00pm - 3:00pm</p>
+                                </Col>
+                                <Col xs={12} md={6}>
+                                    <h4 className='temp-h4' >Heritage Ridge Senior Living @ Johnstown</h4>
+                                    <p className='temp-h3-info' >807 Goucher Street<br />Johnstown, PA</p>
+                                </Col>
+                            </Row>
+                        </div>
+                    </div>
                 </div>
         </React.Fragment>
     )

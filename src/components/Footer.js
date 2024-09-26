@@ -23,7 +23,7 @@ const Footer = () => {
                     </div>
                     <div className='row' style={{ marginTop: 10 }}>
                         <div className='col d-flex justify-content-center'>
-                            <p style={{ color: 'grey' }}>&copy; 2022 Jackie Kopco </p>
+                            <p style={{ color: 'grey' }}>&copy; 2024 Jackie Kopco </p>
                         </div>
                     </div>
                 </div>

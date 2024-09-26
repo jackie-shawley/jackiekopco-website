@@ -16,7 +16,7 @@ export default function TemporaryFooter() {
                         <h4 className='temp-h4'><a href='tel:+1-814-418-7154' className='temp-info-link'>814.418.7154</a></h4>
                     </Col>
                     <Col md='4' style={{ alignItems: 'left' }}>
-                        <h4 className='temp-h4'>&copy;2022 Jackie Kopco</h4>
+                        <h4 className='temp-h4'>&copy;2024 Jackie Kopco</h4>
                     </Col>
                 </Row>
             </div>
