@@ -1,6 +1,8 @@
 import React from 'react';
 import { Col, Container, Row } from 'reactstrap';
 import { SocialIcon } from 'react-social-icons';
+import { HashLink as Link } from 'react-router-hash-link';
+
 
 export default function TempHomePage() {
 
@@ -9,6 +11,18 @@ export default function TempHomePage() {
             <Container fluid>
                 <h1 className='temp-h1'>Jackie Kopco</h1>
                 <hr className='temp-hr-tag' />
+                <div className="d-flex justify-content-center">
+                    <Row>
+                        <Col>
+                            <Link to="/pathLink#showsAnchorTag" className='temp-show-link'>SHOWS</Link>
+                        </Col>
+                        <Col>
+                        <Link to="/pathLink#musicAnchorTag" className='temp-music-link'>MUSIC</Link>
+                        </Col>
+                    </Row>
+                </div>
+               
+                
                 <img className='img-fluid' id='temp-img' src='images/jackie_playing_guitar_b_and_w.png' alt='Jackie Kopco playing guitar' style={{ marginTop: '.5rem' }} />
             </Container>
                 <div>
@@ -48,7 +62,7 @@ export default function TempHomePage() {
                         </Col>
                     </Row>
                 </div>
-                <div style={{ marginTop: 30, textAlign: 'center' }}>
+                <div style={{ marginTop: 30, textAlign: 'center' }} id='musicAnchorTag'>
                     <Row>
                         {/* Soundcloud Player */}
                         <Col md='6'>
@@ -87,7 +101,7 @@ export default function TempHomePage() {
                            
                         </Col>
                     </Row>
-                    <div>
+                    <div id="showsAnchorTag">
                         <hr style={{ width: '30%' }}/>
                             <Row>                           
                                 <Col>

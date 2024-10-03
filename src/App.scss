@@ -484,7 +484,29 @@ $breakpoint-xxl: 1600px !default;
   font-family: 'Quicksand', sans-serif;
   font-size: 1rem;
   text-align: center;
-  color: #939393;
+  color: #818589;
+}
+
+.temp-show-link {
+  font-family: 'Arima', cursive;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #636363;
+}
+
+.temp-show-link:hover {
+  color:rgb(2, 168, 168)
+}
+
+.temp-music-link {
+  font-family: 'Arima', cursive;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #636363;
+}
+
+.temp-music-link:hover {
+  color:rgb(2, 168, 168)
 }
 
 .temp-photos-by-link {
