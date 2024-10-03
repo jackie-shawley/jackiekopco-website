@@ -98,6 +98,19 @@ export default function TempHomePage() {
                         <div className="d-flex justify-content-center">
                             <Row style={{ marginTop: 20 }}>
                                 <Col xs={12} md={6}>
+                                    <h4 className='temp-h4' >29 October</h4>
+                                    <p className='temp-h3-info' >3:00pm - 4:00pm</p>
+                                </Col>
+                                <Col xs={12} md={6}>
+                                    <h4 className='temp-h4' >The Addison of McCollough House</h4>
+                                    <p className='temp-h3-info' >500 Cheney Oak Drive<br />Johnstown, PA</p>
+                                </Col>
+                            </Row>
+                        </div>
+                        <hr style={{ width: '30%' }}/>
+                        <div className="d-flex justify-content-center">
+                            <Row style={{ marginTop: 20 }}>
+                                <Col xs={12} md={6}>
                                     <h4 className='temp-h4' >14 November</h4>
                                     <p className='temp-h3-info' >2:00pm - 3:00pm</p>
                                 </Col>
