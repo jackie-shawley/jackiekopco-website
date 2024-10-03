@@ -1,6 +1,5 @@
 import React from 'react';
 import { Col, Container, Row } from 'reactstrap';
-import Contact from '../Contact';
 
 
 export default function TemporaryFooter() {

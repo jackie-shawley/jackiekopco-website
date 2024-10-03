@@ -98,12 +98,51 @@ export default function TempHomePage() {
                         <div className="d-flex justify-content-center">
                             <Row style={{ marginTop: 20 }}>
                                 <Col xs={12} md={6}>
-                                    <h4 className='temp-h4' >28 September</h4>
-                                    <p className='temp-h3-info' >5:00pm - 7:00pm</p>
+                                    <h4 className='temp-h4' >14 November</h4>
+                                    <p className='temp-h3-info' >2:00pm - 3:00pm</p>
                                 </Col>
                                 <Col xs={12} md={6}>
-                                    <h4 className='temp-h4' >The Write Cup Coffee Shop</h4>
-                                    <p className='temp-h3-info' >134 Gazebo Place<br />Johnstown, PA</p>
+                                    <h4 className='temp-h4' >Laurel View Village</h4>
+                                    <p className='temp-h3-info' >2000 Cambridge Drive<br />Davidsville, PA</p>
+                                </Col>
+                            </Row>
+                        </div>
+                        <hr style={{ width: '30%' }}/>
+                        <div className="d-flex justify-content-center">
+                            <Row style={{ marginTop: 20 }}>
+                                <Col xs={12} md={6}>
+                                    <h4 className='temp-h4' >20 November</h4>
+                                    <p className='temp-h3-info' >2:00pm - 3:00pm</p>
+                                </Col>
+                                <Col xs={12} md={6}>
+                                    <h4 className='temp-h4' >Richland Woods</h4>
+                                    <p className='temp-h3-info' >3324 Elton Rd<br />Johnstown, PA</p>
+                                </Col>
+                            </Row>
+                        </div>
+                        <hr style={{ width: '30%' }}/>
+                        <div className="d-flex justify-content-center">
+                            <Row style={{ marginTop: 20 }}>
+                                <Col xs={12} md={6}>
+                                    <h4 className='temp-h4' >22 November</h4>
+                                    <p className='temp-h3-info' >2:00pm - 3:00pm</p>
+                                </Col>
+                                <Col xs={12} md={6}>
+                                    <h4 className='temp-h4' >Villa Personal Care </h4>
+                                    <p className='temp-h3-info' >807 Goucher Street<br />Johnstown, PA</p>
+                                </Col>
+                            </Row>
+                        </div>
+                        <hr style={{ width: '30%' }}/>
+                        <div className="d-flex justify-content-center">
+                            <Row style={{ marginTop: 20 }}>
+                                <Col xs={12} md={6}>
+                                    <h4 className='temp-h4' >13 December</h4>
+                                    <p className='temp-h3-info' >2:00pm - 3:00pm</p>
+                                </Col>
+                                <Col xs={12} md={6}>
+                                    <h4 className='temp-h4'>Richland Woods</h4>
+                                    <p className='temp-h3-info' >429 Napoleon Place<br />Johnstown, PA</p>
                                 </Col>
                             </Row>
                         </div>
@@ -132,6 +171,19 @@ export default function TempHomePage() {
                                 <Col xs={12} md={6}>
                                     <h4 className='temp-h4' >Heritage Ridge Senior Living @ Johnstown</h4>
                                     <p className='temp-h3-info' >807 Goucher Street<br />Johnstown, PA</p>
+                                </Col>
+                            </Row>
+                        </div>
+                        <hr style={{ width: '30%' }}/>
+                        <div className="d-flex justify-content-center">
+                            <Row style={{ marginTop: 20 }}>
+                                <Col xs={12} md={6}>
+                                    <h4 className='temp-h4' >14 February</h4>
+                                    <p className='temp-h3-info' >2:00pm - 3:00pm</p>
+                                </Col>
+                                <Col xs={12} md={6}>
+                                    <h4 className='temp-h4' >Laurel View Village</h4>
+                                    <p className='temp-h3-info' >2000 Cambridge Drive<br />Davidsville, PA</p>
                                 </Col>
                             </Row>
                         </div>
