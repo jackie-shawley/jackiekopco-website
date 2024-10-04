@@ -125,6 +125,19 @@ export default function TempHomePage() {
                         <div className="d-flex justify-content-center">
                             <Row style={{ marginTop: 20 }}>
                                 <Col xs={12} md={6}>
+                                    <h4 className='temp-h4' >7 November</h4>
+                                    <p className='temp-h3-info' >1:30pm - 2:30pm</p>
+                                </Col>
+                                <Col xs={12} md={6}>
+                                    <h4 className='temp-h4' >Arbutus Park Retirement Community</h4>
+                                    <p className='temp-h3-info' >207 Ottawa Street<br />Johnstown, PA</p>
+                                </Col>
+                            </Row>
+                        </div>
+                        <hr style={{ width: '30%' }}/>
+                        <div className="d-flex justify-content-center">
+                            <Row style={{ marginTop: 20 }}>
+                                <Col xs={12} md={6}>
                                     <h4 className='temp-h4' >14 November</h4>
                                     <p className='temp-h3-info' >2:00pm - 3:00pm</p>
                                 </Col>
@@ -157,6 +170,20 @@ export default function TempHomePage() {
                                 <Col xs={12} md={6}>
                                     <h4 className='temp-h4' >Villa Personal Care </h4>
                                     <p className='temp-h3-info' >807 Goucher Street<br />Johnstown, PA</p>
+                                </Col>
+                            </Row>
+                        </div>
+                        <hr style={{ width: '30%' }}/>
+                        <div className="d-flex justify-content-center">
+                            <Row style={{ marginTop: 20 }}>
+                                <Col xs={12} md={6}>
+                                    <h4 className='temp-h4' >6 December</h4>
+                                    <p className='temp-h3-info' >10:00am - 12:00pm</p>
+                                </Col>
+                                <Col xs={12} md={6}>
+                                    <h4 className='temp-h4' >Arbutus Park Retirement Community</h4>
+                                    <h4 className='temp-h4' >Hometown Holidays</h4>
+                                    <p className='temp-h3-info' >207 Ottawa Street<br />Johnstown, PA</p>
                                 </Col>
                             </Row>
                         </div>
