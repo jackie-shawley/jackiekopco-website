@@ -183,6 +183,7 @@ export default function TempHomePage() {
                                 <Col xs={12} md={6}>
                                     <h4 className='temp-h4' >Arbutus Park Retirement Community</h4>
                                     <h4 className='temp-h4' >Hometown Holidays</h4>
+                                    <h4 className='temp-h4' >with Walt & Jackie</h4>
                                     <p className='temp-h3-info' >207 Ottawa Street<br />Johnstown, PA</p>
                                 </Col>
                             </Row>
