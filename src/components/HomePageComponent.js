@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import Main from './Main';
-import SideNav from './SideNav';
 
 class HomePage extends Component {
     constructor(props) {

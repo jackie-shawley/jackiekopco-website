@@ -2,9 +2,7 @@ import './App.scss';
 import WebFont from 'webfontloader';
 import { useEffect } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Main from './components/Main';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Col, Row } from 'reactstrap';
 import TempHomePage from './components/temp site/TempHomePageComponent';
 import TemporaryFooter from './components/temp site/TemporaryFooter';
 

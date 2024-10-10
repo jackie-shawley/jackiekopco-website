@@ -4,7 +4,6 @@ import HomePage from './HomePageComponent';
 import MusicPage from './music/MusicPage';
 import Contact from './Contact';
 import SideNav from './SideNav';
-import Footer from './Footer';
 
 
 export default function Main() {
