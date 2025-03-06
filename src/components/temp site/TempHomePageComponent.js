@@ -101,7 +101,7 @@ export default function TempHomePage() {
                            
                         </Col>
                     </Row>
-                
+                </div>
                     <div id="showsAnchorTag">
                         <hr style={{ width: '30%' }}/>
                             <Row>                           
