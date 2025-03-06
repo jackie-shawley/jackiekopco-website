@@ -339,7 +339,7 @@ export default function TempHomePage() {
                             </Row>
                         </div> */}
                     </div>
-                </div>
+                
             </React.Fragment>
         )
 
