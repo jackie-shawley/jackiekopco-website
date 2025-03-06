@@ -101,6 +101,7 @@ export default function TempHomePage() {
                            
                         </Col>
                     </Row>
+                
                     <div id="showsAnchorTag">
                         <hr style={{ width: '30%' }}/>
                             <Row>                           
@@ -112,59 +113,7 @@ export default function TempHomePage() {
                         <div className="d-flex justify-content-center">
                             <Row style={{ marginTop: 20 }}>
                                 <Col xs={12} md={6}>
-                                    <h4 className='temp-h4' >29 October</h4>
-                                    <p className='temp-h3-info' >3:00pm - 4:00pm</p>
-                                </Col>
-                                <Col xs={12} md={6}>
-                                    <h4 className='temp-h4' >The Addison of McCollough House</h4>
-                                    <p className='temp-h3-info' >500 Cheney Oak Drive<br />Johnstown, PA</p>
-                                </Col>
-                            </Row>
-                        </div>
-                        <hr style={{ width: '30%' }}/>
-                        <div className="d-flex justify-content-center">
-                            <Row style={{ marginTop: 20 }}>
-                                <Col xs={12} md={6}>
-                                    <h4 className='temp-h4' >7 November</h4>
-                                    <p className='temp-h3-info' >1:30pm - 2:30pm</p>
-                                </Col>
-                                <Col xs={12} md={6}>
-                                    <h4 className='temp-h4' >Arbutus Park Retirement Community</h4>
-                                    <p className='temp-h3-info' >207 Ottawa Street<br />Johnstown, PA</p>
-                                </Col>
-                            </Row>
-                        </div>
-                        <hr style={{ width: '30%' }}/>
-                        <div className="d-flex justify-content-center">
-                            <Row style={{ marginTop: 20 }}>
-                                <Col xs={12} md={6}>
-                                    <h4 className='temp-h4' >8 November</h4>
-                                    <p className='temp-h3-info' >1:30pm - 2:30pm</p>
-                                </Col>
-                                <Col xs={12} md={6}>
-                                    <h4 className='temp-h4' >Windber Woods Senior Living</h4>
-                                    <p className='temp-h3-info' >277 Hoffman Avenue<br />Windber, PA</p>
-                                </Col>
-                            </Row>
-                        </div>
-                        <hr style={{ width: '30%' }}/>
-                        <div className="d-flex justify-content-center">
-                            <Row style={{ marginTop: 20 }}>
-                                <Col xs={12} md={6}>
-                                    <h4 className='temp-h4' >14 November</h4>
-                                    <p className='temp-h3-info' >2:00pm - 3:00pm</p>
-                                </Col>
-                                <Col xs={12} md={6}>
-                                    <h4 className='temp-h4' >Laurel View Village</h4>
-                                    <p className='temp-h3-info' >2000 Cambridge Drive<br />Davidsville, PA</p>
-                                </Col>
-                            </Row>
-                        </div>
-                        <hr style={{ width: '30%' }}/>
-                        <div className="d-flex justify-content-center">
-                            <Row style={{ marginTop: 20 }}>
-                                <Col xs={12} md={6}>
-                                    <h4 className='temp-h4' >20 November</h4>
+                                    <h4 className='temp-h4' >7 March</h4>
                                     <p className='temp-h3-info' >2:00pm - 3:00pm</p>
                                 </Col>
                                 <Col xs={12} md={6}>
@@ -177,11 +126,11 @@ export default function TempHomePage() {
                         <div className="d-flex justify-content-center">
                             <Row style={{ marginTop: 20 }}>
                                 <Col xs={12} md={6}>
-                                    <h4 className='temp-h4' >22 November</h4>
+                                    <h4 className='temp-h4' >12 March</h4>
                                     <p className='temp-h3-info' >2:00pm - 3:00pm</p>
                                 </Col>
                                 <Col xs={12} md={6}>
-                                    <h4 className='temp-h4' >Villa Personal Care </h4>
+                                    <h4 className='temp-h4' >Heritage Ridge Senior Living @ Johnstown</h4>
                                     <p className='temp-h3-info' >807 Goucher Street<br />Johnstown, PA</p>
                                 </Col>
                             </Row>
@@ -190,14 +139,24 @@ export default function TempHomePage() {
                         <div className="d-flex justify-content-center">
                             <Row style={{ marginTop: 20 }}>
                                 <Col xs={12} md={6}>
-                                    <h4 className='temp-h4' >6 December</h4>
-                                    <h4 className='temp-h4-holiday' >Hometown Holidays</h4>
-                                    <h4 className='temp-h4' >with Walt & Jackie</h4>
-                                    <p className='temp-h3-info' >10:00am - 12:00pm</p>
+                                    <h4 className='temp-h4' >28 March</h4>
+                                    <p className='temp-h3-info' >3:00pm - 4:00pm</p>
                                 </Col>
                                 <Col xs={12} md={6}>
-                                    <h4 className='temp-h4' >Arbutus Park Retirement Community</h4>
-                                    <p className='temp-h3-info' >207 Ottawa Street<br />Johnstown, PA</p>
+                                    <h4 className='temp-h4' >The Addison of McCollough House</h4>
+                                    <p className='temp-h3-info' >500 Cheney Oak Drive<br />Johnstown, PA</p>
+                                </Col>
+                            </Row>
+                        </div>
+                        <hr style={{ width: '30%' }}/>
+                        <Row style={{ marginTop: 20 }}>
+                                <Col xs={12} md={6}>
+                                    <h4 className='temp-h4' >4 April</h4>
+                                    <p className='temp-h3-info' >2:00pm - 3:00pm</p>
+                                </Col>
+                                <Col xs={12} md={6}>
+                                    <h4 className='temp-h4' >Richland Woods</h4>
+                                    <p className='temp-h3-info' >3324 Elton Rd<br />Johnstown, PA</p>
                                 </Col>
                             </Row>
                         </div>
@@ -205,12 +164,37 @@ export default function TempHomePage() {
                         <div className="d-flex justify-content-center">
                             <Row style={{ marginTop: 20 }}>
                                 <Col xs={12} md={6}>
-                                    <h4 className='temp-h4' >12 December</h4>
-                                    <h4 className='temp-h4-holiday' >Christmas In The Woods</h4>
-                                    <p className='temp-h3-info' >2:00pm - 4:00pm</p>
+                                    <h4 className='temp-h4' >9 April</h4>
+                                    {/* <p className='temp-h3-info' >1:30pm - 2:30pm</p> */}
                                 </Col>
                                 <Col xs={12} md={6}>
-                                    <h4 className='temp-h4' >Windber Woods Senior Living</h4> 
+                                    <h4 className='temp-h4' >Windber Woods Independent Living Luncheon</h4>
+                                    <p className='temp-h3-info' >270 Hoffman Avenue<br />Windber, PA</p>
+                                </Col>
+                            </Row>
+                        </div>
+                        <hr style={{ width: '30%' }}/>
+                        <div className="d-flex justify-content-center">
+                            <Row style={{ marginTop: 20 }}>
+                                <Col xs={12} md={6}>
+                                    <h4 className='temp-h4' >16 April</h4>
+                                    <p className='temp-h3-info' >3:00pm - 4:00pm</p>
+                                </Col>
+                                <Col xs={12} md={6}>
+                                    <h4 className='temp-h4' >The Addison of McCollough House</h4>
+                                    <p className='temp-h3-info' >500 Cheney Oak Drive<br />Johnstown, PA</p>
+                                </Col>
+                            </Row>
+                        </div>
+                        <hr style={{ width: '30%' }}/>
+                        <div className="d-flex justify-content-center">
+                            <Row style={{ marginTop: 20 }}>
+                                <Col xs={12} md={6}>
+                                    <h4 className='temp-h4' >25 April</h4>
+                                    <p className='temp-h3-info' >1:30pm - 2:30pm</p>
+                                </Col>
+                                <Col xs={12} md={6}>
+                                    <h4 className='temp-h4' >Windber Woods Senior Living</h4>
                                     <p className='temp-h3-info' >277 Hoffman Avenue<br />Windber, PA</p>
                                 </Col>
                             </Row>
@@ -219,12 +203,12 @@ export default function TempHomePage() {
                         <div className="d-flex justify-content-center">
                             <Row style={{ marginTop: 20 }}>
                                 <Col xs={12} md={6}>
-                                    <h4 className='temp-h4' >13 December</h4>
-                                    <p className='temp-h3-info' >2:00pm - 3:00pm</p>
+                                    <h4 className='temp-h4' >21 May</h4>
+                                    <p className='temp-h3-info' >3:00pm - 4:00pm</p>
                                 </Col>
                                 <Col xs={12} md={6}>
-                                    <h4 className='temp-h4'>Richland Woods</h4>
-                                    <p className='temp-h3-info' >429 Napoleon Place<br />Johnstown, PA</p>
+                                    <h4 className='temp-h4' >The Addison of McCollough House</h4>
+                                    <p className='temp-h3-info' >500 Cheney Oak Drive<br />Johnstown, PA</p>
                                 </Col>
                             </Row>
                         </div>
@@ -232,8 +216,49 @@ export default function TempHomePage() {
                         <div className="d-flex justify-content-center">
                             <Row style={{ marginTop: 20 }}>
                                 <Col xs={12} md={6}>
-                                    <h4 className='temp-h4' >18 December</h4>
-                                    <h4 className='temp-h4-holiday' >Ugly Holiday Sweater Party!</h4>
+                                    <h4 className='temp-h4' >23 May</h4>
+                                    <p className='temp-h3-info' >1:30pm - 2:30pm</p>
+                                </Col>
+                                <Col xs={12} md={6}>
+                                    <h4 className='temp-h4' >Arbutus Park Retirement Community</h4>
+                                    <h4 className='temp-h4' >Kickoff to Summer Party!</h4>
+                                    <p className='temp-h3-info' >207 Ottawa Street<br />Johnstown, PA</p>
+                                </Col>
+                            </Row>
+                        </div>
+                        <hr style={{ width: '30%' }}/>
+                        <div className="d-flex justify-content-center">
+                            <Row style={{ marginTop: 20 }}>
+                                <Col xs={12} md={6}>
+                                    <h4 className='temp-h4' >25 May</h4>
+                                    <p className='temp-h3-info' >11:15am</p>
+                                </Col>
+                                <Col xs={12} md={6}>
+                                    <h4 className='temp-h4' >Parkhill American Legion</h4>
+                                    <h4 className='temp-h4' >Veteran Suicide Awareness Ride</h4>
+                                    <p className='temp-h3-info' >230 Parkhill Drive<br />Parkhill, PA</p>
+                                </Col>
+                            </Row>
+                        </div>
+                        <hr style={{ width: '30%' }}/>
+                        <div className="d-flex justify-content-center">
+                            <Row style={{ marginTop: 20 }}>
+                                <Col xs={12} md={6}>
+                                    <h4 className='temp-h4' >18 June</h4>
+                                    <p className='temp-h3-info' >3:00pm - 4:00pm</p>
+                                </Col>
+                                <Col xs={12} md={6}>
+                                    <h4 className='temp-h4' >The Addison of McCollough House</h4>
+                                    <p className='temp-h3-info' >500 Cheney Oak Drive<br />Johnstown, PA</p>
+                                </Col>
+                            </Row>
+                        </div>
+                        <hr style={{ width: '30%' }}/>
+                        <div className="d-flex justify-content-center">
+                            <Row style={{ marginTop: 20 }}>
+                                <Col xs={12} md={6}>
+                                    <h4 className='temp-h4' >25 June</h4>
+                                    {/* <h4 className='temp-h4-holiday' >Ugly Holiday Sweater Party!</h4> */}
                                     <h4 className='temp-h4' >with Walt & Jackie</h4>
                                     <p className='temp-h3-info' >7:00pm - 10:00pm</p>
                                 </Col>
@@ -247,20 +272,22 @@ export default function TempHomePage() {
                         <div className="d-flex justify-content-center">
                             <Row style={{ marginTop: 20 }}>
                                 <Col xs={12} md={6}>
-                                    <h4 className='temp-h4' >19 December</h4>
-                                    <p className='temp-h3-info' >2:00pm - 3:00pm</p>
+                                    <h4 className='temp-h4' >14 August</h4>
+                                    {/* <h4 className='temp-h4-holiday' >Ugly Holiday Sweater Party!</h4> */}
+                                    <h4 className='temp-h4' >with Walt & Jackie</h4>
+                                    <p className='temp-h3-info' >6:00pm - 9:00pm</p>
                                 </Col>
                                 <Col xs={12} md={6}>
-                                    <h4 className='temp-h4' >Heritage Ridge Senior Living @ Johnstown</h4>
-                                    <p className='temp-h3-info' >807 Goucher Street<br />Johnstown, PA</p>
+                                    <h4 className='temp-h4' >Gallery On Gazebo</h4>
+                                    <h4 className='temp-h4' >Music begins at 6 PM under the twinkling lights of the Piazza, inside the Gallery, or across Gazebo Place under the Roof of the Central Park Gazebo. Plan now to attend. Dress is informal. Adults only. $25 donation includes culinary and liquid delights.</h4>
+                                    <p className='temp-h3-info' >140 Gazebo Place<br />Johnstown, PA</p>
                                 </Col>
                             </Row>
-                        </div>
-                        <hr style={{ width: '30%' }}/>
-                        <div className="d-flex justify-content-center">
+                        </div>                       
+                        {/* <div className="d-flex justify-content-center">
                             <Row style={{ marginTop: 20 }}>
                                 <Col xs={12} md={6}>
-                                    <h4 className='temp-h4' >14 February</h4>
+                                    <h4 className='temp-h4' >14 November</h4>
                                     <p className='temp-h3-info' >2:00pm - 3:00pm</p>
                                 </Col>
                                 <Col xs={12} md={6}>
@@ -269,9 +296,51 @@ export default function TempHomePage() {
                                 </Col>
                             </Row>
                         </div>
+                        <hr style={{ width: '30%' }}/> */}                        
+                        {/* <div className="d-flex justify-content-center">
+                            <Row style={{ marginTop: 20 }}>
+                                <Col xs={12} md={6}>
+                                    <h4 className='temp-h4' >22 November</h4>
+                                    <p className='temp-h3-info' >2:00pm - 3:00pm</p>
+                                </Col>
+                                <Col xs={12} md={6}>
+                                    <h4 className='temp-h4' >Villa Personal Care </h4>
+                                    <p className='temp-h3-info' >807 Goucher Street<br />Johnstown, PA</p>
+                                </Col>
+                            </Row>
+                        </div>
+                        <hr style={{ width: '30%' }}/> */}
+                        {/* <div className="d-flex justify-content-center">
+                            <Row style={{ marginTop: 20 }}>
+                                <Col xs={12} md={6}>
+                                    <h4 className='temp-h4' >6 December</h4>
+                                    <h4 className='temp-h4-holiday' >Hometown Holidays</h4>
+                                    <h4 className='temp-h4' >with Walt & Jackie</h4>
+                                    <p className='temp-h3-info' >10:00am - 12:00pm</p>
+                                </Col>
+                                <Col xs={12} md={6}>
+                                    <h4 className='temp-h4' >Arbutus Park Retirement Community</h4>
+                                    <p className='temp-h3-info' >207 Ottawa Street<br />Johnstown, PA</p>
+                                </Col>
+                            </Row>
+                        </div> */}
+                        {/* <hr style={{ width: '30%' }}/>
+                        <div className="d-flex justify-content-center">
+                            <Row style={{ marginTop: 20 }}>
+                                <Col xs={12} md={6}>
+                                    <h4 className='temp-h4' >12 December</h4>
+                                    <h4 className='temp-h4-holiday' >Christmas In The Woods</h4>
+                                    <p className='temp-h3-info' >2:00pm - 4:00pm</p>
+                                </Col>
+                                <Col xs={12} md={6}>
+                                    <h4 className='temp-h4' >Windber Woods Senior Living</h4> 
+                                    <p className='temp-h3-info' >277 Hoffman Avenue<br />Windber, PA</p>
+                                </Col>
+                            </Row>
+                        </div> */}
                     </div>
                 </div>
-        </React.Fragment>
-    )
+            </React.Fragment>
+        )
 
 }
