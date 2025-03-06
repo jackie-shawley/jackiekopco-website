@@ -149,7 +149,8 @@ export default function TempHomePage() {
                             </Row>
                         </div>
                         <hr style={{ width: '30%' }}/>
-                        <Row style={{ marginTop: 20 }}>
+                        <div className="d-flex justify-content-center">
+                            <Row style={{ marginTop: 20 }}>
                                 <Col xs={12} md={6}>
                                     <h4 className='temp-h4' >4 April</h4>
                                     <p className='temp-h3-info' >2:00pm - 3:00pm</p>
@@ -272,6 +273,19 @@ export default function TempHomePage() {
                         <div className="d-flex justify-content-center">
                             <Row style={{ marginTop: 20 }}>
                                 <Col xs={12} md={6}>
+                                    <h4 className='temp-h4' >10 July</h4>
+                                    <p className='temp-h3-info' >1:30pm - 2:30pm</p>
+                                </Col>
+                                <Col xs={12} md={6}>
+                                    <h4 className='temp-h4' >Arbutus Park Retirement Community</h4>
+                                    <p className='temp-h3-info' >207 Ottawa Street<br />Johnstown, PA</p>
+                                </Col>
+                            </Row>
+                        </div>
+                        <hr style={{ width: '30%' }}/>
+                        <div className="d-flex justify-content-center">
+                            <Row style={{ marginTop: 20 }}>
+                                <Col xs={12} md={6}>
                                     <h4 className='temp-h4' >14 August</h4>
                                     {/* <h4 className='temp-h4-holiday' >Ugly Holiday Sweater Party!</h4> */}
                                     <h4 className='temp-h4' >with Walt & Jackie</h4>
@@ -279,7 +293,7 @@ export default function TempHomePage() {
                                 </Col>
                                 <Col xs={12} md={6}>
                                     <h4 className='temp-h4' >Gallery On Gazebo</h4>
-                                    <h4 className='temp-h4' >Music begins at 6 PM under the twinkling lights of the Piazza, inside the Gallery, or across Gazebo Place under the Roof of the Central Park Gazebo. Plan now to attend. Dress is informal. Adults only. $25 donation includes culinary and liquid delights.</h4>
+                                    {/* <h4 className='temp-h4' >Music begins at 6 PM under the twinkling lights of the Piazza, inside the Gallery, or across Gazebo Place under the Roof of the Central Park Gazebo. Plan now to attend. Dress is informal. Adults only. $25 donation includes culinary and liquid delights.</h4> */}
                                     <p className='temp-h3-info' >140 Gazebo Place<br />Johnstown, PA</p>
                                 </Col>
                             </Row>
